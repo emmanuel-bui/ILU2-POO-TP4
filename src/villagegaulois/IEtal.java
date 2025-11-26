@@ -2,7 +2,7 @@ package villagegaulois;
 
 import personnages.Gaulois;
 
-public interface IEtal<P> {
+public interface IEtal {
 	Gaulois getVendeur();
 
 	int contientProduit(String produit, int quantiteSouhaitee);
@@ -11,5 +11,4 @@ public interface IEtal<P> {
 
 	String etatEtal();
 
-	void installerVendeur(Gaulois vendeur, P[] produit, int prix);
 }

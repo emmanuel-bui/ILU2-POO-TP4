@@ -12,4 +12,9 @@ public class Poisson extends Produit {
 	public String decrireProduit() {
 		return "poissons pêchés " + datePeche;
 	}
+
+	@Override
+	public int calculerPrix(int prix) {
+		return prix;
+	}
 }
